@@ -28,7 +28,7 @@ jobs:
 -            - run: yarn matrix
 
             - name: "Jekyll theme"
-              run: mv ./_config.temp.yml ./m3u/_config.yml
+              运行： mv ./_config.temp.yml ./m3u/_config.yml
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
